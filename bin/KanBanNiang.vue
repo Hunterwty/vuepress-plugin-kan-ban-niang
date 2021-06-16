@@ -52,9 +52,11 @@ export default {
       },
       currentTheme: THEME[0],
       myTheme: THEME,
-      themeName: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16','umaru'],
+      themeName: ['umaru','blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
       // 模型地址
       model: {
+        umaru:
+          'https://raw.githubusercontent.com/honjun/live2d-model/master/live2d/model/xiaomai/xiaomai.json',
         blackCat:
           'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-hijiki/assets/hijiki.model.json',
         whiteCat:
@@ -76,9 +78,7 @@ export default {
         miku:
           'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-miku/assets/miku.model.json',
         z16:
-          'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-z16/assets/z16.model.json',
-        umaru:
-          'https://raw.githubusercontent.com/honjun/live2d-model/master/live2d/model/xiaomai/xiaomai.json'
+          'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-z16/assets/z16.model.json'
       },
       // model的高宽
       style: {
