@@ -78,7 +78,7 @@ export default {
         z16:
           'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-z16/assets/z16.model.json',
         umaru:
-          'https://github.com/honjun/live2d-model/raw/master/live2d/model/xiaomai/xiaomai.json'
+          'https://raw.githubusercontent.com/honjun/live2d-model/master/live2d/model/xiaomai/xiaomai.json'
       },
       // model的高宽
       style: {
