@@ -52,7 +52,7 @@ export default {
       },
       currentTheme: THEME[0],
       myTheme: THEME,
-      themeName: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
+      themeName: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16','umaru'],
       // 模型地址
       model: {
         blackCat:
@@ -76,7 +76,9 @@ export default {
         miku:
           'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-miku/assets/miku.model.json',
         z16:
-          'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-z16/assets/z16.model.json'
+          'https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-z16/assets/z16.model.json',
+        umaru:
+          'https://github.com/honjun/live2d-model/blob/master/live2d/model/xiaomai/xiaomai.json'
       },
       // model的高宽
       style: {
